@@ -47,13 +47,13 @@ def ceknet():
             start()
         except requests.exceptions.ConnectionError:
             time.sleep(3.5)
-            print '\033[37;1m]\033[35;1m ~>\033[31;1m Tidak Ada koneksi'
+            print '\033[37;1m]\033[35;1m ~>\033[31;1m পরে ঘুতাস পরে নেট নাই এখন হবে না'
             time.sleep(1.5)
             sys.exit()
 
     except KeyboardInterrupt:
     	time.sleep(3.5)
-        exit('\n\033[37;1m[\x1b[92mx\033[37;1m] \033[31;1mProgram berhenti\n')
+        exit('\n\033[37;1m[\x1b[92mx\033[37;1m] \033[31;1mভাগ মাদারচোদ\n')
 
 def start():
         try:
